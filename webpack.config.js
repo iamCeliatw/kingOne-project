@@ -49,7 +49,7 @@ module.exports = {
   },
   plugins: [
     new HTMLIWebpackPlugin({
-      title: "TO DO LIST",
+      title: "Kingone Project",
       filename: "index.html",
       template: "src/index.html",
     }),

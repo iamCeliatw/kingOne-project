@@ -6,7 +6,7 @@ import styled from "styled-components";
 const Homepage = () => {
   return (
     <Container>
-      <b>X</b>
+      <img className="close" src="Vector.png" alt="" />
       <Header />
       <Section />
     </Container>
@@ -20,11 +20,11 @@ const Container = styled.div`
   backdrop-filter: blur(15px);
   height: 100vh;
   position: relative;
-  b {
+  .close {
     position: absolute;
-    top: 15px;
+    top: 20px;
     right: 30px;
-    font-size: 45px;
+    width: 30px;
     color: #ffffff;
     cursor: pointer;
   }
