@@ -8,6 +8,6 @@ const GlobalStyles = createGlobalStyle`
 }
 body {
     font-family: 'Ubuntu', sans-serif;
-    }
+    }   
 `;
 export default GlobalStyles;

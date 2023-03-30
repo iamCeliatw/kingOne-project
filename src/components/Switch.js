@@ -26,11 +26,11 @@ const Container = styled.div`
   position: absolute;
   bottom: 5%;
   left: 10%;
-  width: 350px;
+  width: auto;
   ul {
     display: flex;
     list-style: none;
-    justify-content: center;
+
     li {
       padding: 10px 20px;
       width: auto;

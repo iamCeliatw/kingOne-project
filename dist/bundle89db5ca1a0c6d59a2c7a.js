@@ -4483,7 +4483,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n    font-family: 'Ubuntu', sans-serif;\n}\nbody {\n    font-family: 'Ubuntu', sans-serif;\n    }\n"])));
+var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n    font-family: 'Ubuntu', sans-serif;\n}\nbody {\n    font-family: 'Ubuntu', sans-serif;\n    }   \n"])));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GlobalStyles);
 
 /***/ }),
@@ -4613,7 +4613,7 @@ var Switch = function Switch() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "3D"))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Switch);
-var Container = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 5%;\n  left: 10%;\n  width: 350px;\n  ul {\n    display: flex;\n    list-style: none;\n    justify-content: center;\n    li {\n      padding: 10px 20px;\n      width: auto;\n      background-color: rgba(255, 255, 255, 0);\n      border: 1px solid #c1b494;\n      color: #c1b494;\n      img {\n        vertical-align: middle;\n        display: inline-block;\n        color: #ffffff;\n        padding-right: 5px;\n      }\n      span {\n        vertical-align: middle;\n        display: inline-block;\n      }\n      &:hover,\n      &:focus,\n      &:active {\n        cursor: pointer;\n        background-color: #c1b494;\n        color: #ffffff;\n      }\n      :nth-child(1) {\n        background-color: #c1b494;\n        color: #ffffff;\n      }\n      :nth-child(2) {\n        background: rgba(255, 255, 255, 0.1);\n        border: 1.5px solid #c1b494;\n        backdrop-filter: blur(15px);\n      }\n      :nth-child(3) {\n        background: rgba(255, 255, 255, 0.1);\n        border: 1.5px solid #c1b494;\n        backdrop-filter: blur(15px);\n      }\n    }\n  }\n"])));
+var Container = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 5%;\n  left: 10%;\n  width: auto;\n  ul {\n    display: flex;\n    list-style: none;\n\n    li {\n      padding: 10px 20px;\n      width: auto;\n      background-color: rgba(255, 255, 255, 0);\n      border: 1px solid #c1b494;\n      color: #c1b494;\n      img {\n        vertical-align: middle;\n        display: inline-block;\n        color: #ffffff;\n        padding-right: 5px;\n      }\n      span {\n        vertical-align: middle;\n        display: inline-block;\n      }\n      &:hover,\n      &:focus,\n      &:active {\n        cursor: pointer;\n        background-color: #c1b494;\n        color: #ffffff;\n      }\n      :nth-child(1) {\n        background-color: #c1b494;\n        color: #ffffff;\n      }\n      :nth-child(2) {\n        background: rgba(255, 255, 255, 0.1);\n        border: 1.5px solid #c1b494;\n        backdrop-filter: blur(15px);\n      }\n      :nth-child(3) {\n        background: rgba(255, 255, 255, 0.1);\n        border: 1.5px solid #c1b494;\n        backdrop-filter: blur(15px);\n      }\n    }\n  }\n"])));
 
 /***/ }),
 
@@ -41378,4 +41378,4 @@ root.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createEle
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle2dd4f2f4456046f1dcc3.js.map
+//# sourceMappingURL=bundle89db5ca1a0c6d59a2c7a.js.map
