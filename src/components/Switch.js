@@ -30,13 +30,13 @@ const Container = styled.div`
   ul {
     display: flex;
     list-style: none;
-
     li {
       padding: 10px 20px;
-      width: auto;
       background-color: rgba(255, 255, 255, 0);
       border: 1px solid #c1b494;
       color: #c1b494;
+      width: 120px;
+      text-align: center;
       img {
         vertical-align: middle;
         display: inline-block;
@@ -60,12 +60,10 @@ const Container = styled.div`
       }
       :nth-child(2) {
         background: rgba(255, 255, 255, 0.1);
-        border: 1.5px solid #c1b494;
         backdrop-filter: blur(15px);
       }
       :nth-child(3) {
         background: rgba(255, 255, 255, 0.1);
-        border: 1.5px solid #c1b494;
         backdrop-filter: blur(15px);
       }
     }
